@@ -51,6 +51,29 @@ namespace Swagger_Petstore_API_autotests.Tests
         }
 
         [Test]
+        [Description("Update an existing pet")]
+        public async Task UpdateExistingPetTest()
+        {
+            const int dogId = 1000;
+            const int dogTagId = 1;
+            const int dogCategoryId = 1;
+            const string newDogName = "Fluffy";
+
+            RestRequest request = new RestRequest("/pet", Method.Put)
+                .AddJsonBody(new AddNewPetRequest(
+                    dogId,
+                    new POCO.Request.SubPOCO.Category(dogCategoryId, "dog"),
+                    newDogName,
+                    new[] { "photoUrl" },
+                    new[] { new POCO.Request.SubPOCO.Tags(dogTagId, "dog") },
+                    "available"));
+
+            UpdateExistingPetResponse response = await Client.PutAsync<UpdateExistingPetResponse>(request);
+
+            Assert.That(response.Name, Is.EqualTo(newDogName));
+        }
+
+        [Test]
         [Description("Delete a pet")]
         public async Task DeletePetTest()
         {

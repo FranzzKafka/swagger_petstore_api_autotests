@@ -1,0 +1,69 @@
+{
+  "uuid": "001c773e-3249-4c17-9e04-097622eb08cb-tr-0-1012",
+  "historyId": "Swagger_Petstore_API_autotests.Tests.UserAPITests.CreateListOfUsers",
+  "fullName": "Swagger_Petstore_API_autotests.Tests.UserAPITests.CreateListOfUsers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "Swagger_Petstore_API_autotests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CreateListOfUsers"
+    },
+    {
+      "name": "testClass",
+      "value": "UserAPITests"
+    },
+    {
+      "name": "suite",
+      "value": "User API tests"
+    }
+  ],
+  "links": [],
+  "name": "CreateListOfUsers",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CreateListOfUsers"
+  },
+  "stage": "finished",
+  "description": "Create list of user with given input list\n",
+  "steps": [
+    {
+      "name": "CreateListOfUsers",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9bd21748ae944aaeb473681e5bfb7f5d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681828622507,
+      "stop": 1681828623307
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681828622506,
+  "stop": 1681828623308
+}

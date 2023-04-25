@@ -1,0 +1,72 @@
+{
+  "uuid": "7e71e732-bb4a-4fa8-bff5-8ac9e047b7e7-tr-0-1011",
+  "historyId": "Swagger_Petstore_API_autotests.Tests.UserAPITests.UpdateExistingUser",
+  "fullName": "Swagger_Petstore_API_autotests.Tests.UserAPITests.UpdateExistingUser",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "Swagger_Petstore_API_autotests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UpdateExistingUser"
+    },
+    {
+      "name": "testClass",
+      "value": "UserAPITests"
+    },
+    {
+      "name": "suite",
+      "value": "User API tests"
+    }
+  ],
+  "links": [],
+  "name": "UpdateExistingUser",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: \"Black\"\n  But was:  null\n",
+    "trace": "   at Swagger_Petstore_API_autotests.Tests.UserAPITests.UpdateExistingUser() in /Users/evgenijsarkisan/Projects/Swagger Petstore API autotests/Swagger Petstore API autotests/Tests/UserAPITests.cs:line 78\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\n"
+  },
+  "stage": "finished",
+  "description": "Updated user object\n",
+  "steps": [
+    {
+      "name": "UpdateExistingUser",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: \"Black\"\n  But was:  null\n",
+        "trace": "   at Swagger_Petstore_API_autotests.Tests.UserAPITests.UpdateExistingUser() in /Users/evgenijsarkisan/Projects/Swagger Petstore API autotests/Swagger Petstore API autotests/Tests/UserAPITests.cs:line 78\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8ac14f3e257a4c0ebfb950e0c748f953-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681828177461,
+      "stop": 1681828178192
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681828177461,
+  "stop": 1681828178193
+}

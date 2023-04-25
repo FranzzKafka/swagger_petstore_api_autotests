@@ -1,0 +1,72 @@
+{
+  "uuid": "fd4e6e05-e4da-4f9e-b657-2e1062656835-tr-0-1012",
+  "historyId": "Swagger_Petstore_API_autotests.Tests.UserAPITests.CreateListOfUsers",
+  "fullName": "Swagger_Petstore_API_autotests.Tests.UserAPITests.CreateListOfUsers",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "Swagger_Petstore_API_autotests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CreateListOfUsers"
+    },
+    {
+      "name": "testClass",
+      "value": "UserAPITests"
+    },
+    {
+      "name": "suite",
+      "value": "User API tests"
+    }
+  ],
+  "links": [],
+  "name": "CreateListOfUsers",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Net.Http.HttpRequestException : Request failed with status code InternalServerError",
+    "trace": "   at RestSharp.ResponseThrowExtension.ThrowIfError(RestResponse response)\n   at RestSharp.RestClientExtensions.PostAsync(IRestClient client, RestRequest request, CancellationToken cancellationToken)\n   at Swagger_Petstore_API_autotests.Tests.UserAPITests.CreateListOfUsers() in /Users/evgenijsarkisan/Projects/Swagger Petstore API autotests/Swagger Petstore API autotests/Tests/UserAPITests.cs:line 97\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "description": "Create list of user with given input list\n",
+  "steps": [
+    {
+      "name": "CreateListOfUsers",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Net.Http.HttpRequestException : Request failed with status code InternalServerError",
+        "trace": "   at RestSharp.ResponseThrowExtension.ThrowIfError(RestResponse response)\n   at RestSharp.RestClientExtensions.PostAsync(IRestClient client, RestRequest request, CancellationToken cancellationToken)\n   at Swagger_Petstore_API_autotests.Tests.UserAPITests.CreateListOfUsers() in /Users/evgenijsarkisan/Projects/Swagger Petstore API autotests/Swagger Petstore API autotests/Tests/UserAPITests.cs:line 97\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.BlockUntilCompleted()\n   at NUnit.Framework.Internal.MessagePumpStrategy.NoMessagePumpStrategy.WaitForCompletion(AwaitAdapter awaiter)\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7173de43d5944c538e1022fdab5ae0eb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681828312675,
+      "stop": 1681828313467
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681828312674,
+  "stop": 1681828313468
+}

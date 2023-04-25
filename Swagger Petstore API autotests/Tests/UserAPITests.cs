@@ -57,7 +57,7 @@ namespace Swagger_Petstore_API_autotests.Tests
 
         [Test]
         [Description("Updated user object")]
-        public async Task UpdateExistingUser()
+        public async Task UpdateExistingUserTest()
         {
             RestRequest request = new RestRequest("/user/BigJohn12", Method.Put)
                 .AddJsonBody(new UpdateUserRequest(
@@ -76,6 +76,42 @@ namespace Swagger_Petstore_API_autotests.Tests
             const string expectedLastName = "Black";
 
             Assert.That(response.LastName, Is.EqualTo(expectedLastName));
+        }
+
+        [Test]
+        [Description("Create list of user with given input array")]
+        public async Task CreateListOfUsersTest()
+        {
+            const int secondUserId = 1922;
+
+            CreateNewUserRequest[] arrOfUsers = {
+                    new CreateNewUserRequest(
+                    UserId,
+                    "BigJohn12",
+                    "John",
+                    "Black",
+                    "john12231@gmail.com",
+                    "asd213_1!",
+                    "88005353535",
+                    UserStatus),
+                    new CreateNewUserRequest(
+                    secondUserId,
+                    "SmallJohn13",
+                    "John",
+                    "White",
+                    "john1Small112@gmail.com",
+                    "asd213_1!",
+                    "88005353517",
+                    UserStatus) };
+
+            RestRequest request = new RestRequest("/user/createWithList", Method.Post)
+                .AddJsonBody(arrOfUsers);
+
+            CreateListOfUsersResponse response = await Client.PostAsync<CreateListOfUsersResponse>(request);
+
+            const string expectedResult = "ok";
+
+            Assert.That(response.Message, Is.EqualTo(expectedResult));
         }
     }
 }

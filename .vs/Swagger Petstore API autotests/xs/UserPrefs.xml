@@ -1,5 +1,49 @@
 ﻿<Properties StartupConfiguration="{40CF27D5-5325-4406-9DB2-74B72129A1C6}|Default">
   <MonoDevelop.Ide.ItemProperties.Swagger_220Petstore_220API_220autotests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Swagger Petstore API autotests/Tests/PetAPITests.cs">
+    <Files>
+      <File FileName="Swagger Petstore API autotests/Tests/PetAPITests.cs" Line="65" Column="50" />
+      <File FileName="Swagger Petstore API autotests/Tests/StoreAPITests.cs" Line="48" Column="24" />
+      <File FileName="Swagger Petstore API autotests/Tests/UserAPITests.cs" Line="90" Column="22" />
+      <File FileName="Swagger Petstore API autotests/POCO/Request/CreateNewUserRequest.cs" Line="6" Column="35" />
+      <File FileName="Swagger Petstore API autotests/POCO/Request/AddNewPetRequest.cs" Line="41" Column="10" />
+      <File FileName="Swagger Petstore API autotests/POCO/Request/UpdateUserRequest.cs" Line="1" Column="1" />
+      <File FileName="Swagger Petstore API autotests/POCO/Request/PetOrderRequest.cs" Line="1" Column="1" />
+      <File FileName="Swagger Petstore API autotests/POCO/Response/CreateListOfUsersResponse.cs" Line="6" Column="40" />
+      <File FileName="Swagger Petstore API autotests/POCO/Response/FindPurchaseOrderByIDResponse.cs" Line="1" Column="1" />
+      <File FileName="Swagger Petstore API autotests/POCO/Response/FindPetByIdResponse.cs" Line="1" Column="1" />
+      <File FileName="Swagger Petstore API autotests/POCO/Response/GetUserByNameResponse.cs" Line="1" Column="1" />
+      <File FileName="Swagger Petstore API autotests/POCO/Response/PlaceOrderResponse.cs" Line="1" Column="1" />
+      <File FileName="Swagger Petstore API autotests/POCO/Request/UpdateExistingPetRequest.cs" Line="9" Column="1" />
+      <File FileName="Swagger Petstore API autotests/POCO/Response/UpdateExistingPetResponse.cs" Line="24" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Swagger Petstore API autotests" expanded="True">
+            <Node name="Swagger Petstore API autotests" expanded="True">
+              <Node name="POCO" expanded="True">
+                <Node name="Request" expanded="True" />
+                <Node name="Response" expanded="True" />
+              </Node>
+              <Node name="Tests" expanded="True">
+                <Node name="PetAPITests.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Swagger Petstore API autotests" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

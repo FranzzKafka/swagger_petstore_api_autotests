@@ -1,0 +1,69 @@
+{
+  "uuid": "530e37a0-1e34-46f1-838b-6217261b211f-tr-0-1009",
+  "historyId": "Swagger_Petstore_API_autotests.Tests.UserAPITests.CreateNewUserTest",
+  "fullName": "Swagger_Petstore_API_autotests.Tests.UserAPITests.CreateNewUserTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "Swagger_Petstore_API_autotests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CreateNewUserTest"
+    },
+    {
+      "name": "testClass",
+      "value": "UserAPITests"
+    },
+    {
+      "name": "suite",
+      "value": "User API tests"
+    }
+  ],
+  "links": [],
+  "name": "CreateNewUserTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "CreateNewUserTest"
+  },
+  "stage": "finished",
+  "description": "Create new user\n",
+  "steps": [
+    {
+      "name": "CreateNewUserTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "dfd630d1a9264e38bed883c4382ed540-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1681828175356,
+      "stop": 1681828176182
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681828175356,
+  "stop": 1681828176184
+}

@@ -1,0 +1,28 @@
+{
+  "uuid": "5a8d7cd3-0bf4-4c09-af3f-1162e1fbd530-tc-0-1008",
+  "name": "Swagger_Petstore_API_autotests.Tests.UserAPITests.CreateListOfUsers",
+  "children": [
+    "ef00b0a7-70ee-4229-88bd-a20aa1433bc0-tr-0-1012"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681828474523,
+      "stop": 1681828474523
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1681828474483,
+  "stop": 1681828474530
+}
