@@ -10,7 +10,8 @@ namespace Swagger_Petstore_API_autotests.Tests.BaseTestSetUp
         [SetUp]
         public void SetUp()
         {
-            Client = new RestClient("https://petstore.swagger.io/v2");
+            string baseUrl = Environment.GetEnvironmentVariable("BaseUrl") ?? "Default String";
+            Client = new RestClient(baseUrl);
         }
     }
 }
